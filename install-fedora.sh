@@ -21,4 +21,4 @@ pip install jupyter
 
 julia -e 'using Pkg; Pkg.add("IJulia")'
 
-alias jupy='(cd ~/Code/dev/Jupyter && jupyter notebook)'
+echo "alias jupy='(cd ~/Code/dev/Jupyter && jupyter notebook)'" >> ~/.bashrc
