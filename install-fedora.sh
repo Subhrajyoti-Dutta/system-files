@@ -5,6 +5,7 @@ sudo snap install code --classic
 
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm 
 sudo dnf install python3
+sudo dnf install python3-pip
 sudo dnf install vlc
 sudo dnf install gimp
 sudo dnf install julia
