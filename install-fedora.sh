@@ -1,6 +1,8 @@
 sudo dnf install snapd
 sudo ln -s /var/lib/snapd/snap /snap
 
+sudo snap install code --classic
+
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm 
 sudo dnf install python3
 sudo dnf install vlc
@@ -21,4 +23,4 @@ pip install jupyter
 
 julia -e 'using Pkg; Pkg.add("IJulia")'
 
-echo "alias jupy='(cd ~/Code/dev/Jupyter && jupyter notebook)'" >> ~/.bashrc
+alias jupy='(cd ~/Code/dev/Jupyter && conda activate && jupyter notebook && conda deactivate)' >> ~/.bashrc
