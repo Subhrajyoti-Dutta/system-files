@@ -28,3 +28,8 @@ pip install jupyter
 julia -e 'using Pkg; Pkg.add("IJulia")'
 
 echo "alias jupy='(cd ~/Code/dev/Jupyter && conda activate && jupyter notebook && conda deactivate)'" >> ~/.bashrc
+
+git config --global user.name "Subhrajyoti-Dutta"
+git config --global user.email "duttajyotisubhra@gmail.com"
+
+echo "alias git-update='git add --all && git commit -m \"Some changes\" && git push'" >> ~/.bashrc
