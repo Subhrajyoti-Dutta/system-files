@@ -1,3 +1,5 @@
+mkdir ~/Code
+
 sudo dnf install snapd
 sudo ln -s /var/lib/snapd/snap /snap
 
@@ -24,4 +26,4 @@ pip install jupyter
 
 julia -e 'using Pkg; Pkg.add("IJulia")'
 
-alias jupy='(cd ~/Code/dev/Jupyter && conda activate && jupyter notebook && conda deactivate)' >> ~/.bashrc
+echo "alias jupy='(cd ~/Code/dev/Jupyter && conda activate && jupyter notebook && conda deactivate)'" >> ~/.bashrc
