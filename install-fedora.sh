@@ -11,6 +11,7 @@ sudo dnf install python3-pip
 sudo dnf install vlc
 sudo dnf install gimp
 sudo dnf install julia
+sudo dnf install conda
 
 pip install numpy
 pip install matplotlib
