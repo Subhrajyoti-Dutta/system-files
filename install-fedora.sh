@@ -4,6 +4,7 @@ sudo dnf install snapd
 sudo ln -s /var/lib/snapd/snap /snap
 
 sudo snap install code --classic
+sudo snap install onlyoffice-desktopeditors
 
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm 
 sudo dnf install python3
