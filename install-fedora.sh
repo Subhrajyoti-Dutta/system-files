@@ -5,12 +5,12 @@ sudo ln -s /var/lib/snapd/snap /snap
 
 sudo snap install code --classic
 sudo snap install onlyoffice-desktopeditors
+sudo snap install vlc
+sudo snap install gimp
 
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm 
 sudo dnf install python3
 sudo dnf install python3-pip
-sudo dnf install vlc
-sudo dnf install gimp
 sudo dnf install java
 sudo dnf install julia
 sudo dnf install conda
