@@ -14,6 +14,7 @@ sudo dnf install python3-pip
 sudo dnf install java
 sudo dnf install julia
 sudo dnf install conda
+sudo dnf install gcc-c++
 
 pip install numpy
 pip install matplotlib
