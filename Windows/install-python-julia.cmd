@@ -1,5 +1,6 @@
 pip install numpy
 pip install matplotlib
+pip install seaborn
 pip install sympy
 pip install tensorflow
 pip install torch
