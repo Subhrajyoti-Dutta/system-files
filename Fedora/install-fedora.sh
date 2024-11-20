@@ -21,8 +21,6 @@ sudo dnf install gcc-c++
 pip install numpy
 pip install matplotlib
 pip install sympy
-pip install tensorflow
-pip install torch
 pip install scipy
 pip install pillow
 pip install pandas
