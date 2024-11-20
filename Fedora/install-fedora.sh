@@ -8,6 +8,8 @@ sudo snap install onlyoffice-desktopeditors
 sudo snap install vlc
 sudo snap install gimp
 
+sudo dnf install google-chrome-stable
+sudo dnf install gnome-tweaks
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm 
 sudo dnf install python3
 sudo dnf install python3-pip
