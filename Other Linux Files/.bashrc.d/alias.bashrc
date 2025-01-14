@@ -1,4 +1,4 @@
-alias jupy='(cd ~/Code/dev/Jupyter && conda activate && jupyter notebook && conda deactivate)'
+alias jupy='(cd ~/Code/MyCodes/Jupyter && conda activate && jupyter notebook && conda deactivate)'
 alias git-update='git add --all && git commit -m "Some changes" && git push'
 alias bash='bash -x'
 alias install='sudo bash ~/MyFiles/install-fedora.sh'
