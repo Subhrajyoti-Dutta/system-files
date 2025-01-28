@@ -10,6 +10,7 @@ sudo snap install gimp
 
 sudo dnf install google-chrome-stable
 sudo dnf install gnome-tweaks
+sudo dnf install gnome-terminal
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm 
 sudo dnf install python3
 sudo dnf install python3-pip
@@ -33,4 +34,4 @@ julia -e 'using Pkg; Pkg.add("IJulia")'
 git config --global user.name "Subhrajyoti-Dutta"
 git config --global user.email "duttajyotisubhra@gmail.com"
 
-ln ./alias.bashrc ~/.bashrc.d/alias.bashrc 
+sudo dnf remove ptyxis
